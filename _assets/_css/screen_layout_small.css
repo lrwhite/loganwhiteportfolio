@@ -1,0 +1,332 @@
+ @charset "UTF-8";
+
+/* Layout Small Screens */
+
+.banner {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display:none;
+    width: 100%; 
+    overflow: hidden;
+    z-index: -1;
+}
+
+#nav{
+    display: none;
+    z-index: 1;
+}
+
+#drop-nav{
+    display: none;
+}
+
+.videocontainer {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%; 
+    overflow: hidden;
+    z-index: -1;
+}
+
+video {
+    z-index: -1;
+    width: 100%; 
+    display: none;
+}
+
+#tablets{
+    display: none;
+}
+
+#phones {
+    display: inline;
+}
+
+#logoinside{
+    display: none;    
+}
+
+.logo{
+	position: absolute;
+	top: 1%;
+	left: 1em;
+    width: 15%;
+    display: none;
+}
+
+nav li{
+    display: inherit;
+	text-decoration: none;
+	font-family: "code-bold", "Century Gothic", Arial;
+	padding: 3px;
+    text-shadow:1px 3px 2px #000;
+    font-size: 1em;
+    text-align: center;
+    background-color: #955523;
+    z-index: 1;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+    z-index: 1;
+}
+
+a{
+	color: black;
+}
+
+nav li a:hover, nav li a:focus{
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+
+.current{
+    border-bottom: none;
+    font-weight: bold;
+}
+
+
+
+#intro{
+	font-family: "raleway-medium", "Century Gothic", Arial;
+	margin-left: 3em;
+	margin-right: 3em;
+    font-size: 10px;
+    text-align: center;
+    padding: 0.5px;
+    display: none;
+}
+
+#intro2{
+    font-family: "raleway-medium", "Century Gothic", Arial;
+	margin-left: 2em;
+	margin-right: 2em;
+    font-size: 13px;
+    text-align: center;
+    display: inherit;
+    padding-bottom: 10px 
+}
+
+#updates{
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+#blog{
+	width: 90%;
+	float:left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#calendar-header{
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+    padding-left: 0%;
+}
+
+#calendar{
+	padding-top: 822px;
+    padding-left: 24px;
+	padding-bottom: 40px;
+}
+
+#schedule{
+    width:250px;
+}
+
+.float {
+    padding-left: 0px;
+    margin-top: 1px
+}
+
+img{
+    display: none;    
+}
+
+#smallnav{
+    display: block;
+    position: relative;
+    clear: both;
+}
+
+.post{
+	background-color: white;
+	margin-bottom: 2%;
+    font-size: 2vh;
+}
+
+.blog-header{
+	color: white;
+    margin-top: 4%;
+}
+
+#big{
+    display: none;
+}
+
+#small{
+    display: inline;
+}
+
+footer{
+	text-align: right;
+	background-color: #955523;
+	padding: 15px;
+	color: white;
+    font-size: 8.5px
+}
+
+#da{
+	float: right;
+	margin-right: 3%;
+	width: 45%;
+    margin-top: -20px;
+    display:none;
+}
+
+#pa{
+	margin-left: 5%;
+	width: 45%;
+    display: none;
+}
+
+#panda{
+	font-size: 3em;
+    margin-left: 5%
+}
+
+.float {
+padding-left: 130px;
+margin-top: -150px
+}
+
+#smallscreenprograms{
+    display: inline;
+}
+
+.smallprogram1 {
+    text-align: left;
+    padding-left: 4vh;
+}
+
+.smalldescription1 {
+    padding-left: 4vh;
+    padding-right: 4vh;
+
+}
+.smallheader1{
+    text-align: center;
+}
+
+.logo2 {
+    position: absolute;
+	top: 5%;
+	left: 1em;
+    width: 40%;
+    z-index: 3;
+}
+
+.wrapper{
+	margin-left:0%;
+    margin-right: 10%;
+}
+
+th, td {
+    padding: 0px;
+    text-align: left;
+}
+
+table {
+overflow-x:auto;>
+}
+
+#language2 {
+display: none;
+}
+
+#language3 {
+display: none;
+}
+
+#language {
+    position: absolute;
+    font-family: "code", "Century Gothic", Arial;
+    font-weight: 600;
+    min-height: 20%;
+    max-height: 20%;
+    font-size: 3em;
+    width:100%;
+    text-align:center;
+    color: white;
+    letter-spacing: 2px;
+    z-index: -1;
+    margin-top: -1.2em;
+    text-shadow:0px 7px 20px #000;
+    opacity: .90;
+     animation:demo 4s;
+   -moz-animation:demo 4s; /* Firefox */
+   -webkit-animation:demo 3s; /* Safari and Chrome */
+   -o-animation:demo 4s; /* Opera */
+   animation:demo 4s;
+}
+
+@keyframes demo {
+   0% {opacity:0;}
+   50% {opacity:1;}
+   100% {opacity:1;}
+}
+
+@-moz-keyframes demo { /* Firefox */
+   0% {opacity:0;}
+   50% {opacity:1;}
+   100% {opacity:1;}
+}
+
+@-webkit-keyframes demo { /* Safari and Chrome */
+   0% {opacity:0;}
+   50% {opacity:1;}
+   100% {opacity:1;}
+}
+
+@-o-keyframes demo { /* Opera */
+   0% {opacity:0;}
+   50% {opacity:1;}
+   100% {opacity:1;}
+}
+}
+
+#tabletimage{
+    display: none;
+}
+
+#largeimage {
+    display: none;
+}
+
+#phones{
+    display: inline;
+    position: absolute;
+}
+
+#phoneimage{
+    display: inline;
+    position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%; 
+	overflow: hidden;
+	z-index: -2;
+}
+
+.videocontainer3{
+    display: inline;
+    position: absolute;
+    
+}

@@ -1,0 +1,178 @@
+/*
+#955523 - Copper
+#CCCCCB - Grey 
+Black
+White
+*/
+
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+body{
+	font-family: "Century Gothic", Arial;
+	font-size: 1em;
+	margin: 0px;
+}
+
+nav li{
+	display: inline;
+	text-decoration: none;
+	font-family: "code-bold", "Century Gothic", Arial;
+	padding: 3px;
+}
+
+nav{
+	text-transform: uppercase;
+	text-align: right;
+	position: absolute;
+	top: 1%;
+	right: 2%;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+li a{
+	color: black;
+}
+
+h3{
+	text-transform: uppercase;
+}
+
+footer{
+	text-align: right;
+	background-color: #955523;
+	padding: 15px;
+	color: white;
+}
+
+/*IDS*/
+
+#header{
+	position: absolute;
+	top: 50px;
+}
+
+#intro{ 
+	font-family: "raleway-medium", "Century Gothic", Arial;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+#da{
+	float: right;
+	margin-right: 5%;
+	width: 35%;
+}
+
+#pa{
+	margin-left: 5%;
+	width: 45%;
+}
+
+#blog{
+	width: 60%;
+	float:left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#blog-calendar{
+	background-color: #955523;
+}
+
+#calendar{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#updates{
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+#calendar-header{
+	color: white;
+	text-transform: uppercase;
+	padding-top: 20px;
+	font-size: 1.5em;
+}
+
+#panda{
+	font-size: 3em;
+}
+
+/*CLASSES*/
+.bannertext{
+	font-family: "code-bold", "Century Gothic", Arial;
+	color: white;
+	position: relative;
+	top: 1em;
+	left: 20%;
+	text-align: center;
+	font-size: 250%;
+	text-transform: uppercase;
+}
+
+.banner{
+	margin: 0px;
+}
+
+.logo{
+	float: left;
+	position: absolute;
+	top: 1%;
+	left: 1em;
+}
+
+.wrapper{
+	margin: 10%;
+}
+
+.post{
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 2%;
+}
+
+.blog-header{
+	color: white;
+}
+
+/*FONTS*/
+
+@font-face{
+	font-family: "code-bold";
+	src: url(_assets/_fonts/codebold.otf);
+}
+
+@font-face{
+	font-family: "code-light";
+	src: url(_assets/_fonts/codelight.otf);
+}
+
+@font-face{
+	font-family: "raleway-light";
+	src: url(_assets/_fonts/raleway-light.ttf);
+}
+
+@font-face{
+	font-family: "raleway-medium";
+	src: url(_assets/_fonts/raleway-medium.ttf);
+}
+
+@font-face{
+	font-family: "raleway-regular";
+	src: url(_assets/_fonts/raleway-regular.ttf);
+
+
+
+
+
+
+
